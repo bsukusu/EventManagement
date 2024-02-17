@@ -1,0 +1,24 @@
+﻿<div class="card mt-3">
+    <div class="card-body">
+        <h5 class="card-title">Yeni Etkinlik Ekle</h5>
+        <form method="post" action="EventAdd">
+            <div class="form-group">
+                <label for="inputCaption">Başlık</label>
+                <input type="text" class="form-control" id="inputCaption" name="Caption" required>
+            </div>
+            <div class="form-group">
+                <label for="inputDescription">Açıklama</label>
+                <textarea class="form-control" id="inputDescription" name="Description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="inputDate">Tarih</label>
+                <input type="date" class="form-control" id="inputDate" name="Date" required>
+            </div>
+            <div class="form-group">
+                <label for="inputParticipants">Katılımcılar</label>
+                <input type="text" class="form-control" id="inputParticipants" name="Participants" required>
+            </div>
+            <button type="submit" class="btn btn-success">Ekle</button>
+        </form>
+    </div>
+</div>
